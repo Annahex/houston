@@ -1,0 +1,34 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+    width: 70%;
+}
+h1,
+h2,
+h3 {
+    font-family: serif;
+    margin-top: 1.5em; /* устанавливаем тип шрифта – sans-serif */
+}
+h1 {
+    font-size: 32px;
+}
+table {
+    margin: 0 auto; /* центруем по горизонитали внешними отступами */
+    align: center;
+}
+td,
+th {
+    border: 1px solid #000; /* задаем сплошную границу размером 1 пиксель цвета #000 */
+}
+
+figure {
+    font-style: italic;
+    float: right;
+    margin: 0px 0px 5px 20px;
+}
+p,
+blockquote {
+    font-family: "Merriweather", serif;
+    text-align: justify;
+}
