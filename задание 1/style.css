@@ -15,7 +15,6 @@ h1 {
 }
 table {
     margin: 0 auto; /* центруем по горизонитали внешними отступами */
-    align: center;
 }
 td,
 th {
