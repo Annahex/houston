@@ -31,3 +31,6 @@ blockquote {
     font-family: "Merriweather", serif;
     text-align: justify;
 }
+body {
+    cursor: pointer;
+}
