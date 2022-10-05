@@ -7,7 +7,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: serif;
+    font-family: Sans-Serif;
     margin-top: 1.5em; /* устанавливаем тип шрифта – sans-serif */
 }
 h1 {
