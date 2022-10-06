@@ -32,3 +32,23 @@
     right: 16px;
     top: 24px;
 }
+.image {
+    width: 100vw;
+    height: 403px;
+    background-image: url("./assets/image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-content {
+    width: 1219px;
+    margin: 0 auto;
+    height: 403px;
+    overflow: hidden;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 403px;
+    text-align: center;
+    color: #ffffff;
+}
