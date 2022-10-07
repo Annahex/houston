@@ -6,7 +6,7 @@
 }
 .header-content {
     padding: 0 55px;
-    width: 1219px;
+    max-width: 1219px;
     margin: 0 auto;
     height: 84px;
     position: relative;
@@ -40,7 +40,8 @@
     background-size: cover;
 }
 .image-content {
-    width: 1219px;
+    padding: 0 55px;
+    max-width: 1219px;
     margin: 0 auto;
     height: 403px;
     overflow: hidden;
@@ -54,13 +55,14 @@
 }
 .section {
     width: 100vw;
-    height: 719px;
+    min-height: 719px;
     margin: 0 auto;
     background: #eeeeee;
     display: inline-block;
 }
 .section-content {
-    width: 1219px;
+    padding: 0 55px;
+    max-width: 1219px;
     margin: 0 auto;
     font-family: "Roboto";
     font-style: normal;
@@ -71,9 +73,10 @@
     color: #007765;
 }
 .text {
-    width: 1219px;
+    padding: 0 55px;
+    max-width: 1219px;
     margin: auto;
-    height: 488px;
+    min-height: 488px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -93,7 +96,8 @@
     display: inline-block;
 }
 .section2-content {
-    width: 1219px;
+    padding: 0 55px;
+    max-width: 1219px;
     margin: 0 auto;
     height: 100%;
     font-family: "Roboto";
@@ -113,12 +117,13 @@
 }
 .section3 {
     width: 100vw;
-    height: 604px;
+    min-height: 604px;
     margin: 0 auto;
     display: inline-block;
 }
 .section3-content1 {
-    width: 1219px;
+    padding: 0 55px;
+    max-width: 1219px;
     margin: 0 auto;
     height: 75px;
     font-family: "Roboto";
@@ -130,7 +135,8 @@
     color: #007765;
 }
 .section3-content2 {
-    width: 1219px;
+    padding: 0 55px;
+    max-width: 1219px;
     margin: 0 auto;
     height: 110px;
     font-family: "Roboto";
@@ -142,5 +148,6 @@
     color: black;
 }
 .ppslogo {
+    margin-right: 48px;
     float: left;
 }
