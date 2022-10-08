@@ -3,6 +3,8 @@
     height: 84px;
     background-color: #007765;
     color: #ffffff;
+    position: fixed;
+    top: 0;
 }
 .header-content {
     padding: 0 55px;
@@ -33,6 +35,7 @@
     top: 24px;
 }
 .image {
+    margin-top: 83px;
     width: 100vw;
     height: 403px;
     background-image: url("./assets/image.svg");
@@ -150,4 +153,94 @@
 .ppslogo {
     margin-right: 48px;
     float: left;
+}
+.section4 {
+    width: 100vw;
+    min-height: 845px;
+    margin: 0 auto;
+    background: #eeeeee;
+    display: inline-block;
+}
+.section4-text {
+    padding: 0 55px;
+    max-width: 1219px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.section4_1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: left;
+    color: black;
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon {
+    width: 168px;
+    height: 168px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.section4_1 figcaption h5 {
+    color: #007765;
+    font-size: 24px;
+    line-height: 28px;
+    margin: auto;
+    text-align: center;
+}
+.section4_1 figcaption p {
+    color: #000000;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 21px;
+    margin: auto;
+    text-align: center;
+}
+
+.section4-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section5 {
+    width: 100vw;
+    min-height: 176px;
+    margin: auto;
+    background: #333333;
+    display: inline-block;
+}
+.section5-content {
+    min-height: 64px;
+    margin: 0 auto;
+    padding: 0 55px;
+    max-width: 1219px;
+}
+.text5 {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 540px;
 }
