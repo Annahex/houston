@@ -1,0 +1,44 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    width: 33%;
+    border: 1px solid gray;
+    padding: 50px 175px 50px 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    text-align: center;
+    width: 226px;
+    height: 259px;
+    margin: 0 auto;
+    display: block;
+}
+.text {
+    text-align: center;
+}
+.i .p {
+    width: 610px;
+    height: 36px;
+}
+.submit {
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #17b2f3;
+    font-style: normal;
+    font-size: medium;
+    width: 100%;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
