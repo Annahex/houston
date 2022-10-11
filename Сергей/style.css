@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .logo {
