@@ -6,9 +6,11 @@
     justify-content: center;
 }
 .box {
-    width: 33%;
+    width: 422px;
+    height: 382px;
     border: 1px solid gray;
-    padding: 50px 175px 50px 175px;
+    /*padding: 50px 175px 50px 175px;*/
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -18,10 +20,14 @@
 }
 .logo {
     text-align: center;
-    width: 226px;
-    height: 259px;
+    width: 124px;
+    height: 125px;
     margin: 0 auto;
     display: block;
+}
+.mmenu-button-container: {
+    width: 360px;
+    height: 48px;
 }
 .text {
     text-align: center;
