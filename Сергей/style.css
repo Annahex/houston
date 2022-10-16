@@ -7,7 +7,7 @@
 }
 .box {
     width: 422px;
-    height: 382px;
+
     border: 1px solid gray;
     /*padding: 50px 175px 50px 175px;*/
 
@@ -17,7 +17,10 @@
     align-items: center;
     border-radius: 7px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-    padding: 10px 25px 100px 25px;
+    padding: 10px 25px 10px 25px;
+}
+h1 {
+    text-align: center;
 }
 .logo {
     text-align: center;
@@ -27,52 +30,13 @@
     display: block;
 }
 
-.input-container {
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.input-container div {
-    display: inline-block;
-    width: calc(100% - 50px);
-    margin: 0;
-}
-
-.input-container img {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    margin-bottom: -4px;
-}
-
-.input-container input {
-    border: none;
-    display: block;
-    max-width: 100%;
-}
-
-.input-container input:focus {
-    outline: none;
-}
-
-.menu-button-container {
-    width: 200px;
-    height: 15px;
-    padding: 5px 10px 5px 10px;
-    border: 1px solid #999;
-    font-size: 16px;
-    font-family: Tahoma;
-}
-.text {
-    text-align: center;
-}
-
 .submit {
+    display: block;
     border-radius: 5px;
+    border: none;
     margin-top: 0;
-    background-color: #17b2f3;
+    margin-bottom: 7px;
+    background-color: #0069c0;
     font-style: normal;
     font-size: medium;
     width: 100%;
@@ -80,5 +44,29 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     color: white;
-    padding-top: auto;
+}
+.submit:hover {
+    background-color: #0089c0;
+    cursor: pointer;
+}
+.input-container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+.input-container div {
+    display: inline-block;
+    width: calc(100% - 35px - 10px);
+    height: 100%;
+}
+.input-container img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+.input-container input {
+    max-width: 100%;
+    border: none;
+    outline: none;
 }
