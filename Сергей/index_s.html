@@ -21,13 +21,40 @@
                     </figcaption>
                 </figure>
 
-                <div class="menu-button-container"></div>
-
-                <div>Имя пользователя</div>
-                <input class="i" />
-                <div>Пароль</div>
-                <input />
-                <button class="submit">Войти в систему</button>
+                <div class="menu-button-container">
+                    <form>
+                        <div class="input-container">
+                            <div>
+                                <label for="login">Имя пользователя:</label>
+                                <input
+                                    id="login"
+                                    name="login"
+                                    size="50"
+                                    cols="40"
+                                    rows="3"
+                                />
+                            </div>
+                            <img src="icons/account.png" />
+                        </div>
+                        <p>
+                        <div class="password-container">
+                            <div>
+                                <label for="password">Пароль:</label>
+                                 <input
+                                     id="password" 
+                                     name="pass"
+                                     size="50"
+                                     cols="40"
+                                     rows="3"
+                                />
+                            </div>
+                            <img src="icons/lock.png" />
+                        </div>
+                        </p>
+                    </form>
+                </div>
+                    <button class="submit">Войти в систему</button>
+                </div>
             </div>
         </div>
     </body>
