@@ -7,18 +7,50 @@
     top: 0;
 }
 .header-content {
-    display: inline;
     margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 80px;
 }
+
 .menu-button-container {
-    display: inline;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* width: 92px; */
+    height: 28px;
+
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: none;
+    color: #000000;
 }
+.menu-button {
+    margin-left: 52px;
+    text-decoration-line: none;
+    color: #000000;
+}
+
 .phone {
     display: inline;
 }
 .number {
     display: inline;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
 }
 .name {
     width: 1074px;
