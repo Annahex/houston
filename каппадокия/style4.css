@@ -132,11 +132,15 @@
     font-size: 96px;
     line-height: 128px;
     margin: 0 auto;
+    margin-top: 190px;
+    margin-bottom: 100px;
     position: relative;
     color: #e2ab3f;
 }
-
-.name-blok1::after {
+.name-blok1 span {
+    position: relative;
+}
+.name-blok1 span::after {
     content: "Сказочная страна чудес";
     position: absolute;
     font-family: Roboto Condensed;
@@ -147,8 +151,8 @@
     color: #000000;
     letter-spacing: 0em;
     text-align: left;
-    right: 60px;
-    bottom: -60px;
+    right: -110px;
+    bottom: 0;
 }
 
 .name-blok1-1 {
