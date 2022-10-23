@@ -95,8 +95,13 @@
 .blok1 .image {
     /* margin-right: 55px; */
     width: 50%;
-    max-width: 960px;
+    max-width: 950px;
     height: 700px;
+}
+.blok1 .image img {
+    max-width: 950px;
+    height: 700px;
+    object-fit: cover;
 }
 
 .blok1 .content {
@@ -168,4 +173,35 @@
     line-height: 28px;
 
     color: #000000;
+}
+.blok2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    max-width: 1900px;
+    min-width: 1900px;
+    margin: 0 auto;
+    position: relative;
+}
+.blok2 .image2 {
+    /* margin-right: 55px; */
+    width: 50%;
+    max-width: 960px;
+    height: 1095px;
+}
+
+.blok2 .content2 {
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+    max-width: 400px;
+    min-width: 400px;
+}
+.content2 button {
+    box-sizing: border-box;
+    width: 280px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #e2ab3f;
+    margin-top: 30px;
 }
