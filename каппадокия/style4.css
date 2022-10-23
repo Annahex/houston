@@ -1,5 +1,6 @@
 .header {
     width: 100vw;
+    min-width: 1900px;
     height: 1080px;
     background-image: url("./assets/Rectangle_43.svg");
     background-repeat: no-repeat;
@@ -83,12 +84,45 @@
     display: flex;
     width: 100vw;
     max-width: 1900px;
+    min-width: 1900px;
     margin: 0 auto;
 
     /*height: 932px;
     left: 0px;
     top: 1280px;*/
 }
+
+.blok1 .image {
+    /* margin-right: 55px; */
+    width: 50%;
+    max-width: 960px;
+    height: 700px;
+}
+
+.blok1 .content {
+    padding: 50px;
+}
+.blok1 > .content > p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    width: 50%;
+    max-width: 600px;
+    min-width: 600px;
+    /* margin-bottom: 40px; */
+
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+.bold {
+    font-weight: bold !important;
+}
+
 .name-blok1 {
     width: 1200px;
 
@@ -98,9 +132,25 @@
     font-size: 96px;
     line-height: 128px;
     margin: 0 auto;
-
+    position: relative;
     color: #e2ab3f;
 }
+
+.name-blok1::after {
+    content: "Сказочная страна чудес";
+    position: absolute;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+    letter-spacing: 0em;
+    text-align: left;
+    right: 60px;
+    bottom: -60px;
+}
+
 .name-blok1-1 {
     width: 233px;
     height: 28px;
@@ -112,26 +162,6 @@
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
-
-    color: #000000;
-}
-
-.image {
-    margin-right: 55px;
-    width: 50%;
-    max-width: 960px;
-    height: 700px;
-}
-.content p {
-    width: 50%;
-    max-width: 960px;
-    margin: 40px;
-    padding-bottom: 20px;
-    font-family: "Roboto Condensed";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
 
     color: #000000;
 }
