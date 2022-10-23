@@ -169,6 +169,7 @@
     width: 100vw;
     max-width: 1900px;
     margin: 0 auto;
+    margin-top: 200px;
     position: relative;
 }
 .blok2 .image2 {
@@ -184,11 +185,9 @@
 }
 
 .blok2 .content2 {
-    margin: 0 auto;
-    padding-left: 40px;
-    padding: 60px;
+    padding-top: 60px;
     width: 50%;
-    max-width: 400px;
+    max-width: 600px;
     font-family: "Roboto Condensed";
     font-style: normal;
     font-weight: 300;
@@ -231,5 +230,4 @@
     line-height: 128px;
 
     color: #e2ab3f;
-    padding-left: 40px;
 }
